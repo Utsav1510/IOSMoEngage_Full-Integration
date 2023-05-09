@@ -1,0 +1,6 @@
+framework module Pods_IOSMoEngageTests {
+  umbrella header "Pods-IOSMoEngageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

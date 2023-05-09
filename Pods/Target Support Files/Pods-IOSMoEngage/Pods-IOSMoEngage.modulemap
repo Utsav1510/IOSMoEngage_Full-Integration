@@ -1,0 +1,6 @@
+framework module Pods_IOSMoEngage {
+  umbrella header "Pods-IOSMoEngage-umbrella.h"
+
+  export *
+  module * { export * }
+}
