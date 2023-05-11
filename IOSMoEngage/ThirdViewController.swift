@@ -108,13 +108,13 @@ class ThirdViewController: UIViewController {
 
         
     }
-
-        
-    }
-    
     @IBAction func signout(_ sender: Any) {
         MoEngageSDKAnalytics.sharedInstance.resetUser()
     }
+    
+        
+    }
+    
     
     
     
@@ -128,11 +128,12 @@ class ThirdViewController: UIViewController {
     }
     */
 
-}
+
+
+
 extension ThirdViewController:UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         resignFirstResponder()
         return true
     }
-
 }
