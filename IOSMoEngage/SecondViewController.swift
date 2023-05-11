@@ -7,6 +7,8 @@
 
 import UIKit
 import MoEngageSDK
+import MoEngageInApps
+
 
 class SecondViewController: UIViewController {
     

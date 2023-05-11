@@ -8,15 +8,25 @@
 import UIKit
 
 import MoEngageSDK
+import MoEngageInApps
+@available(iOS 13.0, *)
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MoEngageMessagingDelegate {
 
 // firstName.text ?? ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        MoEngageSDKAnalytics.sharedInstance.resetUser()
+//        MoEngageSDKAnalytics.sharedInstance.resetUser()
+        let sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
+        MoEngageSDKMessaging.sharedInstance.disableBadgeReset(true)
+        
+        MoEngageSDKMessaging.sharedInstance.setMessagingDelegate(self)
+        
+        MoEngageSDKMessaging.sharedInstance.registerForRemoteNotification(withCategories: nil, andUserNotificationCenterDelegate: self)
+        sdkConfig.appGroupID = "group.interns.moengage"
+        
         //Add your MoEngage App ID
-             var sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
+             
         sdkConfig.enableLogs = true
              // Separate initialization methods for Dev and Prod initializations
              #if DEBUG
@@ -30,9 +40,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    func notificationClicked(withScreenName screenName: String?, andKVPairs kvPairs: [AnyHashable : Any]?) {
+            if let screenName = screenName {
+                print("Navigate to Screen:\(screenName)")
+            }
+            
+            if let actionKVPairs = kvPairs {
+                print("Selected Action KVPair:\(actionKVPairs)")
+            }
+    }
+    func notificationClicked(withScreenName screenName: String?, kvPairs: [AnyHashable : Any]?, andPushPayload userInfo: [AnyHashable : Any]) {
+            
+            print("Push Payload: \(userInfo)")
+            
+            if let screenName = screenName {
+                print("Navigate to Screen:\(screenName)")
+            }
+            
+            if let actionKVPairs = kvPairs {
+                print("Selected Action KVPair:\(actionKVPairs)")
+            }
+    }
 
+    
     // MARK: UISceneSession Lifecycle
 
+    @available(iOS 13.0, *)
+    
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.

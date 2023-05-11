@@ -7,7 +7,7 @@
 
 import UIKit
 import MoEngageSDK
-
+import MoEngageInApps
 class ThirdViewController: UIViewController {
     
     
@@ -70,9 +70,9 @@ class ThirdViewController: UIViewController {
     @IBAction func signupbutton(_ sender: Any) {
        
        
-            
-      
         
+      
+        MoEngageSDKInApp.sharedInstance.showInApp()
         MoEngageSDKAnalytics.sharedInstance.setFirstName(firstname.text!)
         MoEngageSDKAnalytics.sharedInstance.setLastName(lastname.text!)
         MoEngageSDKAnalytics.sharedInstance.setEmailID(email.text!)
@@ -108,13 +108,13 @@ class ThirdViewController: UIViewController {
 
         
     }
-
-        
-    }
-    
     @IBAction func signout(_ sender: Any) {
         MoEngageSDKAnalytics.sharedInstance.resetUser()
     }
+    
+        
+    }
+    
     
     
     
@@ -128,11 +128,12 @@ class ThirdViewController: UIViewController {
     }
     */
 
-}
+
+
+
 extension ThirdViewController:UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         resignFirstResponder()
         return true
     }
-
 }
