@@ -6,17 +6,18 @@
 //
 
 import UIKit
-import FirebaseCore
+
 import MoEngageSDK
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+// firstName.text ?? ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+        MoEngageSDKAnalytics.sharedInstance.resetUser()
         //Add your MoEngage App ID
              var sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
+        sdkConfig.enableLogs = true
              // Separate initialization methods for Dev and Prod initializations
              #if DEBUG
                  MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig, sdkState: .enabled)

@@ -6,16 +6,34 @@
 //
 
 import UIKit
+import MoEngageSDK
 
 class SecondViewController: UIViewController {
+    
+    
+    
 
+    @IBOutlet weak var userid: UITextField!
+    
+    @IBOutlet weak var pass: UITextField!
+    
     override func viewDidLoad() {
+        userid.delegate=self
+        
+        
+        
        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func proceed(_ sender: Any) {
+        
+//        MoEngageSDKAnalytics.sharedInstance.setUniqueID(userid.text!)
+        
+    }
     
     @IBAction func backbutton(_ sender: Any) {
         dismiss(animated: true)
@@ -35,5 +53,13 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
+}
+extension SecondViewController:UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        resignFirstResponder()
+        return true
+    }
 }

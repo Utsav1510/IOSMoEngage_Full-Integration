@@ -68,7 +68,7 @@ class ThirdViewController: UIViewController {
     
     
     @IBAction func signupbutton(_ sender: Any) {
-        
+       
        
             
       
@@ -83,7 +83,7 @@ class ThirdViewController: UIViewController {
         MoEngageSDKAnalytics.sharedInstance.setUserAttribute(Int(Rate.text!), withAttributeName: "Rate")
         MoEngageSDKAnalytics.sharedInstance.setUserAttribute( count , withAttributeName: "ButtonClicked")
         count=count+1
-        print(count)
+        print("Count is ",count)
         
         switch gender.text{
         case "male":
@@ -108,7 +108,11 @@ class ThirdViewController: UIViewController {
 
         
     }
-
+    
+    @IBAction func signout(_ sender: Any) {
+        MoEngageSDKAnalytics.sharedInstance.resetUser()
+    }
+    
     
     
     /*
