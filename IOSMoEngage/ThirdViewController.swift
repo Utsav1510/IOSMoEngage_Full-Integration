@@ -8,7 +8,7 @@
 import UIKit
 import MoEngageSDK
 import MoEngageInApps
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, UNUserNotificationCenterDelegate, MoEngageMessagingDelegate {
     
     
     @IBOutlet weak var email: UITextField!
@@ -69,7 +69,22 @@ class ThirdViewController: UIViewController {
     
     @IBAction func signupbutton(_ sender: Any) {
        
-       
+//        MoEngageSDKMessaging.sharedInstance.setMessagingDelegate(self)
+//        
+//        MoEngageSDKMessaging.sharedInstance.registerForRemoteNotification(withCategories: nil, andUserNotificationCenterDelegate: self)
+//        
+//        
+//        func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//          //Call only if MoEngageAppDelegateProxyEnabled is NO
+//          MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
+//        }
+//
+//
+//        func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+//          //Call only if MoEngageAppDelegateProxyEnabled is NO
+//          MoEngageSDKMessaging.sharedInstance.didFailToRegisterForPush()
+//            
+//        }
         
       
         MoEngageSDKInApp.sharedInstance.showInApp()
@@ -104,11 +119,25 @@ class ThirdViewController: UIViewController {
             MoEngageSDKAnalytics.sharedInstance.setUserAttribute(false, withAttributeName: " Prev offline/online shopping")
             
         }
+        var eventAttrDict : Dictionary<String,Any> = Dictionary()
+        eventAttrDict["ProductName"] = "iPhone XS Max"
+        let eventProperties = MoEngageProperties(withAttributes: eventAttrDict)
+
+        eventProperties.addAttribute(87000.00, withName: "price")
         
+        eventProperties.addDateAttribute(Date(), withName: "Time of login")
+
+       
+        MoEngageSDKAnalytics.sharedInstance.trackEvent("Successful login", withProperties: eventProperties)
 
         
     }
     @IBAction func signout(_ sender: Any) {
+       
+        
+        
+        
+        
         MoEngageSDKAnalytics.sharedInstance.resetUser()
     }
     

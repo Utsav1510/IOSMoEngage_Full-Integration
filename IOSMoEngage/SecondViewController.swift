@@ -32,8 +32,18 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func proceed(_ sender: Any) {
+        var eventAttrDict : Dictionary<String,Any> = Dictionary()
+        eventAttrDict["ProductName"] = "iPhone XS Max"
+        let eventProperties = MoEngageProperties(withAttributes: eventAttrDict)
+
+        eventProperties.addAttribute(87000.00, withName: "price")
         
-//        MoEngageSDKAnalytics.sharedInstance.setUniqueID(userid.text!)
+        eventProperties.addDateAttribute(Date(), withName: "Time of login")
+
+       
+        MoEngageSDKAnalytics.sharedInstance.trackEvent("Successful login", withProperties: eventProperties)
+        
+        MoEngageSDKAnalytics.sharedInstance.setUniqueID(userid.text!)
         
     }
     

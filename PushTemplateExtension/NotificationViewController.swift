@@ -18,11 +18,12 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         super.viewDidLoad()
         // Do any required interface initialization here.
         MoEngageSDKRichNotification.setAppGroupID("K5RQAWVLPPTTIA29F1XKRAGW")
-        MoEngageSDKRichNotification.addPushTemplate(toController: self, withNotification: notification)
+//        MoEngageSDKRichNotification.addPushTemplate(toController: self, withNotification: )
     }
     
     func didReceive(_ notification: UNNotification) {
         self.label?.text = notification.request.content.body
+        MoEngageSDKRichNotification.addPushTemplate(toController: self, withNotification: notification)
     }
 
 }

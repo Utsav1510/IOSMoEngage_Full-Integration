@@ -65,24 +65,31 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0CA94D49D4A37480D10BC0427DA31C69 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BAF94B96A9ACE538A5B26F5B58B877 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11E1C6EBA54F9189E6C8D19BF5576EBF /* Pods-IOSMoEngage-PushTemplateExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A5B85F6B95C9A0645C8425C602CAF /* Pods-IOSMoEngage-PushTemplateExtension-dummy.m */; };
+		0CA94D49D4A37480D10BC0427DA31C69 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8B93E95F3E05F646751781AEAD9A85 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2790FC580CEB788D1A7D5F6C805B7542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		351A0673D2AC55FA01D41A001068CE56 /* Pods-IOSMoEngage-PushTemplateExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D6EB30AD0E6E067F2FC103B653160B /* Pods-IOSMoEngage-PushTemplateExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40A88AE23AAC87F772BA58B3D1B5EADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7814C03068EF7DC63BC2CBB967D7B70A /* Pods-IOSMoEngageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4AAF9DCF9F78D506C48E2C98365D81 /* Pods-IOSMoEngageTests-dummy.m */; };
-		86C9FDD1B07273AA4AD0AD80DF94999E /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D640E43B1E60CA8B090C98E4087D4 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */; };
-		87C47A184EF7678A4C1781AFB5976FFF /* Pods-IOSMoEngageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A682034776E160E7251D8249F1596E /* Pods-IOSMoEngageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA511DC79E7D35CFD97781D358D96835 /* Pods-IOSMoEngage-NotificationServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CD70F0AF16A8965EA82D9CF74BCF9 /* Pods-IOSMoEngage-NotificationServices-dummy.m */; };
-		B9A2FB09F2326CF348267C2BB522F434 /* Pods-IOSMoEngage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE31AD256105C26CC29AB8CAA81027C3 /* Pods-IOSMoEngage-dummy.m */; };
+		7814C03068EF7DC63BC2CBB967D7B70A /* Pods-IOSMoEngageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D86EB968FD4F9B3E4AE52F133733B7 /* Pods-IOSMoEngageTests-dummy.m */; };
+		86C9FDD1B07273AA4AD0AD80DF94999E /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD10BFC8CFC425041F5B24EF24C9A44 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */; };
+		87C47A184EF7678A4C1781AFB5976FFF /* Pods-IOSMoEngageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9B006A54C69638F6789B3BD53C553E /* Pods-IOSMoEngageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9682EE7F00DBAF80231FA1B9B0F6E703 /* Pods-IOSMoEngage-InternsNotificationContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D651056B4D4382F13CB3F90C701520 /* Pods-IOSMoEngage-InternsNotificationContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AB8A21C4C07C596BD9BB3F4D7050ED /* Pods-IOSMoEngage-InternsNotificationContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48E9873DE0D1219CDB4DB5F7BFA2B58 /* Pods-IOSMoEngage-InternsNotificationContent-dummy.m */; };
+		AA511DC79E7D35CFD97781D358D96835 /* Pods-IOSMoEngage-NotificationServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D77E917AFDB4902C82BCB9955C142E /* Pods-IOSMoEngage-NotificationServices-dummy.m */; };
+		B9A2FB09F2326CF348267C2BB522F434 /* Pods-IOSMoEngage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36098A1CEE7D5E149E11665C751AAEFB /* Pods-IOSMoEngage-dummy.m */; };
 		C7927A023C5BB0BF464FBDE6E5CCF8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D6A3D0D292DC4F02B2CC0B50573380B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D52056C888D2569176E8A110E1693CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D852A32BEACD3FF7B2B66D12D1769B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EF05129C3CF75DBDBC99BF93930F0727 /* Pods-IOSMoEngage-NotificationServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71A74790C45D2D1CA565ACC90DA864 /* Pods-IOSMoEngage-NotificationServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC1A35370359999634B174BD7EF838E3 /* Pods-IOSMoEngage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F82237908E00691FB65528ECBBD8E2C /* Pods-IOSMoEngage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF05129C3CF75DBDBC99BF93930F0727 /* Pods-IOSMoEngage-NotificationServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8290F3FB138ED41344F6F16F99931EF /* Pods-IOSMoEngage-NotificationServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1A35370359999634B174BD7EF838E3 /* Pods-IOSMoEngage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F41835FCCEE86843FEE4D392658FA9 /* Pods-IOSMoEngage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		007E070C2EDCDCB400C3760463D45287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D600AAD7FD09C0FB418D95D26038256;
+			remoteInfo = MoEngageInApp;
+		};
 		1AE46C3D7CBBA28001A753AEE5C23219 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -105,13 +112,6 @@
 			remoteInfo = "MoEngage-iOS-SDK";
 		};
 		37FF162D4CD38FAC83C19ED002FB16EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC29B4915ADE6A84DB1A8D013EA0D366;
-			remoteInfo = "MoEngage-iOS-SDK";
-		};
-		39DAFA5E9B764AB9E5F809AD90353408 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -146,13 +146,6 @@
 			remoteGlobalIDString = 12124A02D6E3C6F6C43FA5415F7D861C;
 			remoteInfo = MoEngageCards;
 		};
-		425995881D9D01ADEA0E9F8B5E71B364 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6277E1839D2B08B42428C1ECD9DEB3E;
-			remoteInfo = MoEngageInbox;
-		};
 		61F876AF75645F1DBE3421706CFB2D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -167,19 +160,26 @@
 			remoteGlobalIDString = DC29B4915ADE6A84DB1A8D013EA0D366;
 			remoteInfo = "MoEngage-iOS-SDK";
 		};
+		659626A423BA04A20B3D2360705EB09B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6277E1839D2B08B42428C1ECD9DEB3E;
+			remoteInfo = MoEngageInbox;
+		};
+		723EC8A5B000D57FD8D2217C09022CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC29B4915ADE6A84DB1A8D013EA0D366;
+			remoteInfo = "MoEngage-iOS-SDK";
+		};
 		7C666CBF0901E8E9D12E7E3597C1F1B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56616681F7A1283BA5AD7D56FFE48571;
 			remoteInfo = MoEngageRichNotification;
-		};
-		8105CA2062EE7D0E2C7E0B5598C55C23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12124A02D6E3C6F6C43FA5415F7D861C;
-			remoteInfo = MoEngageCards;
 		};
 		9B43C2A0549E3D3F24E3B143493616D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -237,7 +237,14 @@
 			remoteGlobalIDString = 2D600AAD7FD09C0FB418D95D26038256;
 			remoteInfo = MoEngageInApp;
 		};
-		EC8597F3AEA2D883F414F07B5C4BB555 /* PBXContainerItemProxy */ = {
+		E00503BA8381964B96F875E777D5E6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12124A02D6E3C6F6C43FA5415F7D861C;
+			remoteInfo = MoEngageCards;
+		};
+		E558389F9D6112C44DAD3F85C57BFF70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -251,13 +258,6 @@
 			remoteGlobalIDString = DC29B4915ADE6A84DB1A8D013EA0D366;
 			remoteInfo = "MoEngage-iOS-SDK";
 		};
-		F801B5B88AF27F4BF9E58EEF01307AAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D600AAD7FD09C0FB418D95D26038256;
-			remoteInfo = MoEngageInApp;
-		};
 		FB8D781357C90E885FB5F383AD0B6672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -268,83 +268,91 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024933DDE82FF4A483CB587C2863FC23 /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-NotificationServices.debug.xcconfig"; sourceTree = "<group>"; };
 		08AD31ED2ACBD294084B69CDDC16112C /* Pods-IOSMoEngage-NotificationServices */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngage-NotificationServices"; path = Pods_IOSMoEngage_NotificationServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DEE43E9655CC74F27B88B3843B03002 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EE3AF2462FB043A0476EA1DE76505BA /* MoEngageCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageCore.xcframework; path = Frameworks/MoEngageCore.xcframework; sourceTree = "<group>"; };
-		129CC0645A4392E6E07B766B75B8AA4C /* Pods-IOSMoEngage-PushTemplateExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-PushTemplateExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		15A682034776E160E7251D8249F1596E /* Pods-IOSMoEngageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngageTests-umbrella.h"; sourceTree = "<group>"; };
 		169A50DA87BCB7C38FF4F00383C9D77B /* MoEngage-iOS-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoEngage-iOS-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		18D6EB30AD0E6E067F2FC103B653160B /* Pods-IOSMoEngage-PushTemplateExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-PushTemplateExtension-umbrella.h"; sourceTree = "<group>"; };
-		21BAF94B96A9ACE538A5B26F5B58B877 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h"; sourceTree = "<group>"; };
+		1B6480F30D69A8BACC7C0C095904CBCA /* Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D29DB64C8E828719FE50FA7AE7F10C4 /* Pods-IOSMoEngage-InternsNotificationContent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngage-InternsNotificationContent"; path = Pods_IOSMoEngage_InternsNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FC92B10930AD3E3A0CF9D1AEF6611A /* Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh"; sourceTree = "<group>"; };
 		26B210FBDB60F742F412DA3D7BCD2E5B /* Pods-IOSMoEngageTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngageTests"; path = Pods_IOSMoEngageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BCDE0DC11BF6BB0431212B924878EB /* Pods-IOSMoEngage-NotificationServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-NotificationServices.modulemap"; sourceTree = "<group>"; };
-		328CF0A4E9148FC12F901DB88C50E8F2 /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		33292241AB48BC7064BDA02A94BD4577 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-NotificationServices-acknowledgements.plist"; sourceTree = "<group>"; };
-		397D640E43B1E60CA8B090C98E4087D4 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m"; sourceTree = "<group>"; };
-		3BA562C1D3E22D16297D33C24F44DDD4 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-NotificationServices.release.xcconfig"; sourceTree = "<group>"; };
+		28940C68F7F91214BE49D8FA8E1CA8BD /* Pods-IOSMoEngage-IOSMoEngageUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-IOSMoEngageUITests.modulemap"; sourceTree = "<group>"; };
+		2D3627BDC80E9301DD2568E1CFE069C1 /* Pods-IOSMoEngage-InternsNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-InternsNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		349CB51BA8B63085B7DFFF4B5C5BAACD /* Pods-IOSMoEngage-NotificationServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-NotificationServices-Info.plist"; sourceTree = "<group>"; };
+		36098A1CEE7D5E149E11665C751AAEFB /* Pods-IOSMoEngage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-dummy.m"; sourceTree = "<group>"; };
+		360E8DBBDF2D968E0E99F96144E91785 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-NotificationServices.release.xcconfig"; sourceTree = "<group>"; };
+		385985913CA1F418FEB4D4DCFAD2BB23 /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E97E9688BCB291200728561A4CAD41D /* MoEngageCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageCards.debug.xcconfig; sourceTree = "<group>"; };
-		3EBD8F51E5504EFBE4839A65ECB298BA /* Pods-IOSMoEngageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngageTests.release.xcconfig"; sourceTree = "<group>"; };
 		409A46CDE3B154E42407A12908839E88 /* MoEngageCards-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoEngageCards-xcframeworks.sh"; sourceTree = "<group>"; };
-		41537BA2E9E1CD88CC0BF00AD65F250D /* Pods-IOSMoEngage-NotificationServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-NotificationServices-Info.plist"; sourceTree = "<group>"; };
-		428BA5F9F4A13C35F916600691BE4F62 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig"; sourceTree = "<group>"; };
-		434983008036A32FD4A902EAF67DC1E6 /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		453AA1DC40AA8760B659E1832D7DD01A /* Pods-IOSMoEngageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48D86EB968FD4F9B3E4AE52F133733B7 /* Pods-IOSMoEngageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngageTests-dummy.m"; sourceTree = "<group>"; };
 		48DBF8FFBAE5762E75D1CE519A256DA0 /* MoEngage-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MoEngage-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
-		4E4AAF9DCF9F78D506C48E2C98365D81 /* Pods-IOSMoEngageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngageTests-dummy.m"; sourceTree = "<group>"; };
+		4BDBAE55B967C65B2F5F9BB09EFED251 /* Pods-IOSMoEngage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-acknowledgements.plist"; sourceTree = "<group>"; };
 		53CAE71624FCBCADE43F5E7DCF66FEAB /* MoEngageInApps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageInApps.xcframework; path = Frameworks/MoEngageInApps.xcframework; sourceTree = "<group>"; };
-		58C756602E67B90B7758E92CCD24245F /* Pods-IOSMoEngage-PushTemplateExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-PushTemplateExtension.release.xcconfig"; sourceTree = "<group>"; };
-		5C6A5B85F6B95C9A0645C8425C602CAF /* Pods-IOSMoEngage-PushTemplateExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-PushTemplateExtension-dummy.m"; sourceTree = "<group>"; };
-		5F82237908E00691FB65528ECBBD8E2C /* Pods-IOSMoEngage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-umbrella.h"; sourceTree = "<group>"; };
+		5438D96CE2101C690D2979B4DB391650 /* Pods-IOSMoEngage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-Info.plist"; sourceTree = "<group>"; };
+		5A8B93E95F3E05F646751781AEAD9A85 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h"; sourceTree = "<group>"; };
+		5B64CA3340CE57DC310D04B41F6546C2 /* Pods-IOSMoEngageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngageTests.modulemap"; sourceTree = "<group>"; };
+		5D502672EAB82154746347A494935D1D /* Pods-IOSMoEngageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6250C108A17631E8CF94061AD12F1724 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-NotificationServices-acknowledgements.plist"; sourceTree = "<group>"; };
 		648F7CC06EEA3565792E88A0E4F6E136 /* Pods-IOSMoEngage-IOSMoEngageUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngage-IOSMoEngageUITests"; path = Pods_IOSMoEngage_IOSMoEngageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E231600D825E18869F94AC6AC3F23C /* MoEngageAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageAnalytics.xcframework; path = Frameworks/MoEngageAnalytics.xcframework; sourceTree = "<group>"; };
 		679C8F7B9261EF1A14B08F653B54F5DA /* MoEngageSecurity.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageSecurity.xcframework; path = Frameworks/MoEngageSecurity.xcframework; sourceTree = "<group>"; };
-		69413D27E9DBB5D6DC63758EB57A191B /* Pods-IOSMoEngage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-Info.plist"; sourceTree = "<group>"; };
-		6A4CD70F0AF16A8965EA82D9CF74BCF9 /* Pods-IOSMoEngage-NotificationServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-NotificationServices-dummy.m"; sourceTree = "<group>"; };
-		6A6A702259C1D4174143CB08146F47DF /* Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist"; sourceTree = "<group>"; };
+		6B7DB23C4EEE05A0E8AD14F82226A5E2 /* Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C9B006A54C69638F6789B3BD53C553E /* Pods-IOSMoEngageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngageTests-umbrella.h"; sourceTree = "<group>"; };
+		6C9B0980C8992E2D2D0E03F6559A4F11 /* Pods-IOSMoEngageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F1B39B9F4C223E107377A5C57E9BB9B /* Pods-IOSMoEngage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage.debug.xcconfig"; sourceTree = "<group>"; };
+		71F41835FCCEE86843FEE4D392658FA9 /* Pods-IOSMoEngage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-umbrella.h"; sourceTree = "<group>"; };
 		71FFC01F57F5B66992953D4AFAF7EE18 /* MoEngageInApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageInApp.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75BAA1A736F62865FE7959A2EEE1330B /* Pods-IOSMoEngageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngageTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8164150AE01355AA5EB11EF955AB5E8D /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-NotificationServices.debug.xcconfig"; sourceTree = "<group>"; };
+		7685C3BF25D5DE38C419B46890BA1149 /* Pods-IOSMoEngageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F3764DBEFE03E4478AB2805D0ADA17 /* Pods-IOSMoEngageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngageTests.release.xcconfig"; sourceTree = "<group>"; };
 		843DA520EADE6C1D5266FDB6E40C0DE9 /* MoEngageRichNotification.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageRichNotification.xcframework; path = Frameworks/MoEngageRichNotification.xcframework; sourceTree = "<group>"; };
-		87C852D364105D7A0255E8CD1C8BBE6D /* Pods-IOSMoEngage-PushTemplateExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-PushTemplateExtension.modulemap"; sourceTree = "<group>"; };
-		8AFB4BAC014CFE274A4C28D2DD2F72ED /* Pods-IOSMoEngage-IOSMoEngageUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-IOSMoEngageUITests.modulemap"; sourceTree = "<group>"; };
 		8B2749C6693E72F8370618DFF09FB30A /* MoEngageInApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageInApp.debug.xcconfig; sourceTree = "<group>"; };
 		8BF10EA8B38DE05E97D2DF27F9AB99BC /* MoEngage-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MoEngage-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
-		8DA7B7B476200D5D7523AF0A836D1CC7 /* Pods-IOSMoEngage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-acknowledgements.plist"; sourceTree = "<group>"; };
-		8DE0482E6E2E31ACB15939307CD9D1A3 /* Pods-IOSMoEngage-PushTemplateExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngage-PushTemplateExtension"; path = Pods_IOSMoEngage_PushTemplateExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FD6393DCB399350AF020F84898B694C /* Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EDD2064FB37576B5EFFF01AB8CC80AE /* Pods-IOSMoEngage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage.modulemap"; sourceTree = "<group>"; };
+		906A54E45B30FBC6F22A5819276C434D /* Pods-IOSMoEngage-InternsNotificationContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-InternsNotificationContent.modulemap"; sourceTree = "<group>"; };
+		90EBAA8BC410107A98607B8F8AE7456C /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9127848A960E79382B54D4B95F08BD92 /* MoEngageRichNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageRichNotification.release.xcconfig; sourceTree = "<group>"; };
-		9197CE7B3080A0E1CEDF067A07EFF8D3 /* Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh"; sourceTree = "<group>"; };
-		99A95948B6CB9BC7EE7390B06A51FC12 /* Pods-IOSMoEngage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage.release.xcconfig"; sourceTree = "<group>"; };
+		965FF2F8F267CABCBCCD41F67EACB563 /* Pods-IOSMoEngage-InternsNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-InternsNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		9936BF22FA5EE48279F0154A7806C852 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B36D6CAE288EEEBB9F561BF704ACE28 /* MoEngageMessaging.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageMessaging.xcframework; path = Frameworks/MoEngageMessaging.xcframework; sourceTree = "<group>"; };
-		9D45C9B15E5CD5474EBCFBEA6E636858 /* Pods-IOSMoEngage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC54D18BF1786A71B7AD967AC9C1F67 /* Pods-IOSMoEngage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IOSMoEngage-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E71A74790C45D2D1CA565ACC90DA864 /* Pods-IOSMoEngage-NotificationServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-NotificationServices-umbrella.h"; sourceTree = "<group>"; };
 		9ECF04783CD75F1DC8F30C1E7B1620F6 /* MoEngageInbox.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageInbox.xcframework; path = Frameworks/MoEngageInbox.xcframework; sourceTree = "<group>"; };
 		9FD077622D2A80122FA587A58F3E7ADA /* MoEngageInbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageInbox.debug.xcconfig; sourceTree = "<group>"; };
-		A5C2D857C450626F484FAB9B0A28C1CF /* Pods-IOSMoEngageTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngageTests-Info.plist"; sourceTree = "<group>"; };
-		AE4887C7A1EE1CFFAA87B4AD6B73E098 /* Pods-IOSMoEngage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage.modulemap"; sourceTree = "<group>"; };
-		B019370600A384FA615054C1E93FC35D /* Pods-IOSMoEngageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B04DF727F36C35C934E202A3DFE38401 /* Pods-IOSMoEngage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IOSMoEngage-frameworks.sh"; sourceTree = "<group>"; };
-		B34AF2F2426CD1D51607A76F934813C5 /* Pods-IOSMoEngage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A249F18D95FC7AECFDB38A6780DB9054 /* Pods-IOSMoEngage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A48E9873DE0D1219CDB4DB5F7BFA2B58 /* Pods-IOSMoEngage-InternsNotificationContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-InternsNotificationContent-dummy.m"; sourceTree = "<group>"; };
+		A68968130701D8219B1ACFA414760DDD /* Pods-IOSMoEngage-NotificationServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngage-NotificationServices.modulemap"; sourceTree = "<group>"; };
+		B2D77E917AFDB4902C82BCB9955C142E /* Pods-IOSMoEngage-NotificationServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-NotificationServices-dummy.m"; sourceTree = "<group>"; };
 		B45566C10D87919C2FDF5D8427FC8EBE /* MoEngageSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageSDK.xcframework; path = Frameworks/MoEngageSDK.xcframework; sourceTree = "<group>"; };
 		B5F6D37246124DD4C745B6EB4A869CD1 /* MoEngageInApp-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoEngageInApp-xcframeworks.sh"; sourceTree = "<group>"; };
-		BFEF0AE194EE08239037203CFA9837FE /* Pods-IOSMoEngage-PushTemplateExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-PushTemplateExtension-Info.plist"; sourceTree = "<group>"; };
+		B88038858025732A27F3F06C7E880460 /* Pods-IOSMoEngageTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngageTests-Info.plist"; sourceTree = "<group>"; };
+		BE64CF947DA708C1D9EFC260C0D570A7 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C104CB5390B7DA1AFC2315243A957317 /* MoEngageCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageCards.release.xcconfig; sourceTree = "<group>"; };
-		C34FE1D4C46993BC251FE624C4CFF92F /* Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D651056B4D4382F13CB3F90C701520 /* Pods-IOSMoEngage-InternsNotificationContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-InternsNotificationContent-umbrella.h"; sourceTree = "<group>"; };
+		CC10A77ADDD82A72B4D7F427B7380FDC /* Pods-IOSMoEngage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage.release.xcconfig"; sourceTree = "<group>"; };
 		CE5158CD4D25B3D16B152B8BF4C67C84 /* MoEngageObjCUtils.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageObjCUtils.xcframework; path = Frameworks/MoEngageObjCUtils.xcframework; sourceTree = "<group>"; };
+		CF2A800E09CAF2C78001DABFEAE71012 /* Pods-IOSMoEngage-InternsNotificationContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-InternsNotificationContent-Info.plist"; sourceTree = "<group>"; };
 		D06AE7375A70890DB58A66D7D5F0E90B /* MoEngageInbox-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoEngageInbox-xcframeworks.sh"; sourceTree = "<group>"; };
-		D38D0FB225EB6785F9BA59F992CDE8CC /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D49239E7ADEF1C2171FCC9B71AA73249 /* MoEngageRichNotification-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoEngageRichNotification-xcframeworks.sh"; sourceTree = "<group>"; };
+		D8290F3FB138ED41344F6F16F99931EF /* Pods-IOSMoEngage-NotificationServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IOSMoEngage-NotificationServices-umbrella.h"; sourceTree = "<group>"; };
 		D98E169A3DFCF9ED3155C280BD6457EF /* MoEngageRichNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageRichNotification.debug.xcconfig; sourceTree = "<group>"; };
-		E5EE836F59330FD2BA35B0CC8BC1C22E /* Pods-IOSMoEngageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IOSMoEngageTests.modulemap"; sourceTree = "<group>"; };
+		DD8BB6A9972AA26906F1F1592751847B /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9690A3E3EAFA4A0887985DA8629C239 /* Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist"; sourceTree = "<group>"; };
+		EAD10BFC8CFC425041F5B24EF24C9A44 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m"; sourceTree = "<group>"; };
 		F0A007D36C8876A9C9CA80A966877B7E /* Pods-IOSMoEngage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IOSMoEngage"; path = Pods_IOSMoEngage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CF62AB95E68AF61CB2DF7D3E925591 /* MoEngageInbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoEngageInbox.release.xcconfig; sourceTree = "<group>"; };
 		FC7C312179C563CA7FB084F4A4E6149B /* MoEngageCards.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MoEngageCards.xcframework; path = Frameworks/MoEngageCards.xcframework; sourceTree = "<group>"; };
-		FE31AD256105C26CC29AB8CAA81027C3 /* Pods-IOSMoEngage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IOSMoEngage-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		39B280911FE7692986C01F0B80A30B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52056C888D2569176E8A110E1693CFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63A064039C9FF0C95FA801C68FD7E83A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,14 +385,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E681C182F15C441698550E4A55FE25E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6A3D0D292DC4F02B2CC0B50573380B7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -397,6 +397,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MoEngageCards";
+			sourceTree = "<group>";
+		};
+		05105405935AB9DC4A7F8FAB44FBA85E /* Pods-IOSMoEngage-IOSMoEngageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28940C68F7F91214BE49D8FA8E1CA8BD /* Pods-IOSMoEngage-IOSMoEngageUITests.modulemap */,
+				385985913CA1F418FEB4D4DCFAD2BB23 /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown */,
+				90EBAA8BC410107A98607B8F8AE7456C /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist */,
+				EAD10BFC8CFC425041F5B24EF24C9A44 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */,
+				20FC92B10930AD3E3A0CF9D1AEF6611A /* Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh */,
+				E9690A3E3EAFA4A0887985DA8629C239 /* Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist */,
+				5A8B93E95F3E05F646751781AEAD9A85 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */,
+				DD8BB6A9972AA26906F1F1592751847B /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */,
+				BE64CF947DA708C1D9EFC260C0D570A7 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */,
+			);
+			name = "Pods-IOSMoEngage-IOSMoEngageUITests";
+			path = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests";
 			sourceTree = "<group>";
 		};
 		100CB3D2402C2315CB86A85F081E5F47 /* MoEngageInbox */ = {
@@ -417,6 +434,34 @@
 			);
 			name = MoEngageInApp;
 			path = MoEngageInApp;
+			sourceTree = "<group>";
+		};
+		2AA142AAA8859DAB2E225101780B212D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E796A3E2F452B0A274B0FFC11D5D45A /* Pods-IOSMoEngage */,
+				3010AC61079096A85FFBEE7EDBD4B0CE /* Pods-IOSMoEngage-InternsNotificationContent */,
+				05105405935AB9DC4A7F8FAB44FBA85E /* Pods-IOSMoEngage-IOSMoEngageUITests */,
+				D5837FA037DA74B6C1F649A011B61F4A /* Pods-IOSMoEngage-NotificationServices */,
+				CA4DE7B93C3815E6635E02D0BA341B11 /* Pods-IOSMoEngageTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3010AC61079096A85FFBEE7EDBD4B0CE /* Pods-IOSMoEngage-InternsNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				906A54E45B30FBC6F22A5819276C434D /* Pods-IOSMoEngage-InternsNotificationContent.modulemap */,
+				1B6480F30D69A8BACC7C0C095904CBCA /* Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.markdown */,
+				6B7DB23C4EEE05A0E8AD14F82226A5E2 /* Pods-IOSMoEngage-InternsNotificationContent-acknowledgements.plist */,
+				A48E9873DE0D1219CDB4DB5F7BFA2B58 /* Pods-IOSMoEngage-InternsNotificationContent-dummy.m */,
+				CF2A800E09CAF2C78001DABFEAE71012 /* Pods-IOSMoEngage-InternsNotificationContent-Info.plist */,
+				C3D651056B4D4382F13CB3F90C701520 /* Pods-IOSMoEngage-InternsNotificationContent-umbrella.h */,
+				965FF2F8F267CABCBCCD41F67EACB563 /* Pods-IOSMoEngage-InternsNotificationContent.debug.xcconfig */,
+				2D3627BDC80E9301DD2568E1CFE069C1 /* Pods-IOSMoEngage-InternsNotificationContent.release.xcconfig */,
+			);
+			name = "Pods-IOSMoEngage-InternsNotificationContent";
+			path = "Target Support Files/Pods-IOSMoEngage-InternsNotificationContent";
 			sourceTree = "<group>";
 		};
 		5280428FB09EFD9CF5025C4148D851F9 /* Frameworks */ = {
@@ -469,20 +514,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57F1E077526B7EDB17E8883A65545A97 /* Pods-IOSMoEngage-NotificationServices */ = {
+		6E796A3E2F452B0A274B0FFC11D5D45A /* Pods-IOSMoEngage */ = {
 			isa = PBXGroup;
 			children = (
-				27BCDE0DC11BF6BB0431212B924878EB /* Pods-IOSMoEngage-NotificationServices.modulemap */,
-				0DEE43E9655CC74F27B88B3843B03002 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown */,
-				33292241AB48BC7064BDA02A94BD4577 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.plist */,
-				6A4CD70F0AF16A8965EA82D9CF74BCF9 /* Pods-IOSMoEngage-NotificationServices-dummy.m */,
-				41537BA2E9E1CD88CC0BF00AD65F250D /* Pods-IOSMoEngage-NotificationServices-Info.plist */,
-				9E71A74790C45D2D1CA565ACC90DA864 /* Pods-IOSMoEngage-NotificationServices-umbrella.h */,
-				8164150AE01355AA5EB11EF955AB5E8D /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */,
-				3BA562C1D3E22D16297D33C24F44DDD4 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */,
+				8EDD2064FB37576B5EFFF01AB8CC80AE /* Pods-IOSMoEngage.modulemap */,
+				A249F18D95FC7AECFDB38A6780DB9054 /* Pods-IOSMoEngage-acknowledgements.markdown */,
+				4BDBAE55B967C65B2F5F9BB09EFED251 /* Pods-IOSMoEngage-acknowledgements.plist */,
+				36098A1CEE7D5E149E11665C751AAEFB /* Pods-IOSMoEngage-dummy.m */,
+				9BC54D18BF1786A71B7AD967AC9C1F67 /* Pods-IOSMoEngage-frameworks.sh */,
+				5438D96CE2101C690D2979B4DB391650 /* Pods-IOSMoEngage-Info.plist */,
+				71F41835FCCEE86843FEE4D392658FA9 /* Pods-IOSMoEngage-umbrella.h */,
+				6F1B39B9F4C223E107377A5C57E9BB9B /* Pods-IOSMoEngage.debug.xcconfig */,
+				CC10A77ADDD82A72B4D7F427B7380FDC /* Pods-IOSMoEngage.release.xcconfig */,
 			);
-			name = "Pods-IOSMoEngage-NotificationServices";
-			path = "Target Support Files/Pods-IOSMoEngage-NotificationServices";
+			name = "Pods-IOSMoEngage";
+			path = "Target Support Files/Pods-IOSMoEngage";
 			sourceTree = "<group>";
 		};
 		6F35CDAF6F490794F9E7948C93274B99 /* Frameworks */ = {
@@ -520,22 +566,6 @@
 			path = "../Target Support Files/MoEngageInbox";
 			sourceTree = "<group>";
 		};
-		86F10B789D18D11CF75BBE289AD155A5 /* Pods-IOSMoEngageTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5EE836F59330FD2BA35B0CC8BC1C22E /* Pods-IOSMoEngageTests.modulemap */,
-				B019370600A384FA615054C1E93FC35D /* Pods-IOSMoEngageTests-acknowledgements.markdown */,
-				75BAA1A736F62865FE7959A2EEE1330B /* Pods-IOSMoEngageTests-acknowledgements.plist */,
-				4E4AAF9DCF9F78D506C48E2C98365D81 /* Pods-IOSMoEngageTests-dummy.m */,
-				A5C2D857C450626F484FAB9B0A28C1CF /* Pods-IOSMoEngageTests-Info.plist */,
-				15A682034776E160E7251D8249F1596E /* Pods-IOSMoEngageTests-umbrella.h */,
-				453AA1DC40AA8760B659E1832D7DD01A /* Pods-IOSMoEngageTests.debug.xcconfig */,
-				3EBD8F51E5504EFBE4839A65ECB298BA /* Pods-IOSMoEngageTests.release.xcconfig */,
-			);
-			name = "Pods-IOSMoEngageTests";
-			path = "Target Support Files/Pods-IOSMoEngageTests";
-			sourceTree = "<group>";
-		};
 		922189380C6AFDD30D3084BF3AEA9C0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,22 +580,6 @@
 				53CAE71624FCBCADE43F5E7DCF66FEAB /* MoEngageInApps.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B3EC59C3A7D0F03D240D5D42CB0217FC /* Pods-IOSMoEngage-PushTemplateExtension */ = {
-			isa = PBXGroup;
-			children = (
-				87C852D364105D7A0255E8CD1C8BBE6D /* Pods-IOSMoEngage-PushTemplateExtension.modulemap */,
-				C34FE1D4C46993BC251FE624C4CFF92F /* Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.markdown */,
-				8FD6393DCB399350AF020F84898B694C /* Pods-IOSMoEngage-PushTemplateExtension-acknowledgements.plist */,
-				5C6A5B85F6B95C9A0645C8425C602CAF /* Pods-IOSMoEngage-PushTemplateExtension-dummy.m */,
-				BFEF0AE194EE08239037203CFA9837FE /* Pods-IOSMoEngage-PushTemplateExtension-Info.plist */,
-				18D6EB30AD0E6E067F2FC103B653160B /* Pods-IOSMoEngage-PushTemplateExtension-umbrella.h */,
-				129CC0645A4392E6E07B766B75B8AA4C /* Pods-IOSMoEngage-PushTemplateExtension.debug.xcconfig */,
-				58C756602E67B90B7758E92CCD24245F /* Pods-IOSMoEngage-PushTemplateExtension.release.xcconfig */,
-			);
-			name = "Pods-IOSMoEngage-PushTemplateExtension";
-			path = "Target Support Files/Pods-IOSMoEngage-PushTemplateExtension";
 			sourceTree = "<group>";
 		};
 		B7774F95758A93E432095FA2DF330CBF /* MoEngageCards */ = {
@@ -586,21 +600,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C3450512FBCDE9819D83B4AC7EDDF849 /* Pods-IOSMoEngage */ = {
+		CA4DE7B93C3815E6635E02D0BA341B11 /* Pods-IOSMoEngageTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE4887C7A1EE1CFFAA87B4AD6B73E098 /* Pods-IOSMoEngage.modulemap */,
-				B34AF2F2426CD1D51607A76F934813C5 /* Pods-IOSMoEngage-acknowledgements.markdown */,
-				8DA7B7B476200D5D7523AF0A836D1CC7 /* Pods-IOSMoEngage-acknowledgements.plist */,
-				FE31AD256105C26CC29AB8CAA81027C3 /* Pods-IOSMoEngage-dummy.m */,
-				B04DF727F36C35C934E202A3DFE38401 /* Pods-IOSMoEngage-frameworks.sh */,
-				69413D27E9DBB5D6DC63758EB57A191B /* Pods-IOSMoEngage-Info.plist */,
-				5F82237908E00691FB65528ECBBD8E2C /* Pods-IOSMoEngage-umbrella.h */,
-				9D45C9B15E5CD5474EBCFBEA6E636858 /* Pods-IOSMoEngage.debug.xcconfig */,
-				99A95948B6CB9BC7EE7390B06A51FC12 /* Pods-IOSMoEngage.release.xcconfig */,
+				5B64CA3340CE57DC310D04B41F6546C2 /* Pods-IOSMoEngageTests.modulemap */,
+				6C9B0980C8992E2D2D0E03F6559A4F11 /* Pods-IOSMoEngageTests-acknowledgements.markdown */,
+				5D502672EAB82154746347A494935D1D /* Pods-IOSMoEngageTests-acknowledgements.plist */,
+				48D86EB968FD4F9B3E4AE52F133733B7 /* Pods-IOSMoEngageTests-dummy.m */,
+				B88038858025732A27F3F06C7E880460 /* Pods-IOSMoEngageTests-Info.plist */,
+				6C9B006A54C69638F6789B3BD53C553E /* Pods-IOSMoEngageTests-umbrella.h */,
+				7685C3BF25D5DE38C419B46890BA1149 /* Pods-IOSMoEngageTests.debug.xcconfig */,
+				80F3764DBEFE03E4478AB2805D0ADA17 /* Pods-IOSMoEngageTests.release.xcconfig */,
 			);
-			name = "Pods-IOSMoEngage";
-			path = "Target Support Files/Pods-IOSMoEngage";
+			name = "Pods-IOSMoEngageTests";
+			path = "Target Support Files/Pods-IOSMoEngageTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -609,8 +622,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				540484E8BBAA007686D89D5E33DEA364 /* Pods */,
-				E5D1851C14C6800148D678B330AE6E81 /* Products */,
-				F30F990E05622FA9A08E472931F5B351 /* Targets Support Files */,
+				FED73B6B8810CC0DEB209B6E24FB934C /* Products */,
+				2AA142AAA8859DAB2E225101780B212D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -620,6 +633,22 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5837FA037DA74B6C1F649A011B61F4A /* Pods-IOSMoEngage-NotificationServices */ = {
+			isa = PBXGroup;
+			children = (
+				A68968130701D8219B1ACFA414760DDD /* Pods-IOSMoEngage-NotificationServices.modulemap */,
+				9936BF22FA5EE48279F0154A7806C852 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.markdown */,
+				6250C108A17631E8CF94061AD12F1724 /* Pods-IOSMoEngage-NotificationServices-acknowledgements.plist */,
+				B2D77E917AFDB4902C82BCB9955C142E /* Pods-IOSMoEngage-NotificationServices-dummy.m */,
+				349CB51BA8B63085B7DFFF4B5C5BAACD /* Pods-IOSMoEngage-NotificationServices-Info.plist */,
+				D8290F3FB138ED41344F6F16F99931EF /* Pods-IOSMoEngage-NotificationServices-umbrella.h */,
+				024933DDE82FF4A483CB587C2863FC23 /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */,
+				360E8DBBDF2D968E0E99F96144E91785 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */,
+			);
+			name = "Pods-IOSMoEngage-NotificationServices";
+			path = "Target Support Files/Pods-IOSMoEngage-NotificationServices";
 			sourceTree = "<group>";
 		};
 		DA6560E0B3470B6E055B5DD0ADE868F2 /* MoEngage-iOS-SDK */ = {
@@ -642,63 +671,34 @@
 			path = MoEngageRichNotification;
 			sourceTree = "<group>";
 		};
-		E5D1851C14C6800148D678B330AE6E81 /* Products */ = {
+		FED73B6B8810CC0DEB209B6E24FB934C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				F0A007D36C8876A9C9CA80A966877B7E /* Pods-IOSMoEngage */,
+				1D29DB64C8E828719FE50FA7AE7F10C4 /* Pods-IOSMoEngage-InternsNotificationContent */,
 				648F7CC06EEA3565792E88A0E4F6E136 /* Pods-IOSMoEngage-IOSMoEngageUITests */,
 				08AD31ED2ACBD294084B69CDDC16112C /* Pods-IOSMoEngage-NotificationServices */,
-				8DE0482E6E2E31ACB15939307CD9D1A3 /* Pods-IOSMoEngage-PushTemplateExtension */,
 				26B210FBDB60F742F412DA3D7BCD2E5B /* Pods-IOSMoEngageTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F30F990E05622FA9A08E472931F5B351 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C3450512FBCDE9819D83B4AC7EDDF849 /* Pods-IOSMoEngage */,
-				F564F288FEAF494A5D752A586A17883E /* Pods-IOSMoEngage-IOSMoEngageUITests */,
-				57F1E077526B7EDB17E8883A65545A97 /* Pods-IOSMoEngage-NotificationServices */,
-				B3EC59C3A7D0F03D240D5D42CB0217FC /* Pods-IOSMoEngage-PushTemplateExtension */,
-				86F10B789D18D11CF75BBE289AD155A5 /* Pods-IOSMoEngageTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F564F288FEAF494A5D752A586A17883E /* Pods-IOSMoEngage-IOSMoEngageUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8AFB4BAC014CFE274A4C28D2DD2F72ED /* Pods-IOSMoEngage-IOSMoEngageUITests.modulemap */,
-				D38D0FB225EB6785F9BA59F992CDE8CC /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.markdown */,
-				328CF0A4E9148FC12F901DB88C50E8F2 /* Pods-IOSMoEngage-IOSMoEngageUITests-acknowledgements.plist */,
-				397D640E43B1E60CA8B090C98E4087D4 /* Pods-IOSMoEngage-IOSMoEngageUITests-dummy.m */,
-				9197CE7B3080A0E1CEDF067A07EFF8D3 /* Pods-IOSMoEngage-IOSMoEngageUITests-frameworks.sh */,
-				6A6A702259C1D4174143CB08146F47DF /* Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist */,
-				21BAF94B96A9ACE538A5B26F5B58B877 /* Pods-IOSMoEngage-IOSMoEngageUITests-umbrella.h */,
-				434983008036A32FD4A902EAF67DC1E6 /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */,
-				428BA5F9F4A13C35F916600691BE4F62 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */,
-			);
-			name = "Pods-IOSMoEngage-IOSMoEngageUITests";
-			path = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		050A8B5638D51EE5D248F5F2712B9824 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				351A0673D2AC55FA01D41A001068CE56 /* Pods-IOSMoEngage-PushTemplateExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1184F5E49B4288693AFD3CD075A25AE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				87C47A184EF7678A4C1781AFB5976FFF /* Pods-IOSMoEngageTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15F73B8853904DA0118C41882181F8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9682EE7F00DBAF80231FA1B9B0F6E703 /* Pods-IOSMoEngage-InternsNotificationContent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,29 +750,6 @@
 			name = "Pods-IOSMoEngage-NotificationServices";
 			productName = Pods_IOSMoEngage_NotificationServices;
 			productReference = 08AD31ED2ACBD294084B69CDDC16112C /* Pods-IOSMoEngage-NotificationServices */;
-			productType = "com.apple.product-type.framework";
-		};
-		3803E376253A3AEB344046B1DEB54452 /* Pods-IOSMoEngage-PushTemplateExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C15905728FB853DF9D56B57E87AFB12 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-PushTemplateExtension" */;
-			buildPhases = (
-				050A8B5638D51EE5D248F5F2712B9824 /* Headers */,
-				7BC92065941611995C018C00497B00A7 /* Sources */,
-				E681C182F15C441698550E4A55FE25E1 /* Frameworks */,
-				7D44AA2D380B7B2E6D23E1EAD62CF1EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83608D5E918763A2A5F3B50F0BCE24D7 /* PBXTargetDependency */,
-				2A22019F1DDD385AC602A73F13D910C8 /* PBXTargetDependency */,
-				BDDD69B879EC2014D84B1CF928B505F1 /* PBXTargetDependency */,
-				57747894D49E00B9E76FFF9667B09E00 /* PBXTargetDependency */,
-				D543B1667722FDC0D2B470685DA3A7BE /* PBXTargetDependency */,
-			);
-			name = "Pods-IOSMoEngage-PushTemplateExtension";
-			productName = Pods_IOSMoEngage_PushTemplateExtension;
-			productReference = 8DE0482E6E2E31ACB15939307CD9D1A3 /* Pods-IOSMoEngage-PushTemplateExtension */;
 			productType = "com.apple.product-type.framework";
 		};
 		3D67E5806CE3C12248B26107439D53F8 /* Pods-IOSMoEngage-IOSMoEngageUITests */ = {
@@ -840,6 +817,29 @@
 			productReference = 26B210FBDB60F742F412DA3D7BCD2E5B /* Pods-IOSMoEngageTests */;
 			productType = "com.apple.product-type.framework";
 		};
+		A9F3F1B2EFF6EC38AE2596AC04803A43 /* Pods-IOSMoEngage-InternsNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF93782CB7DCC6D563AB100B292E6BF2 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-InternsNotificationContent" */;
+			buildPhases = (
+				A15F73B8853904DA0118C41882181F8D /* Headers */,
+				5B34FC1EC953DD716A75F8AEE620A6E5 /* Sources */,
+				39B280911FE7692986C01F0B80A30B5E /* Frameworks */,
+				8A5549A05C362ADC8C0114AA18261921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD09231F0AD1E25ED5F595B93CFEDDC /* PBXTargetDependency */,
+				3C232B1E5FD3110BBEF9F45CD8DC4A30 /* PBXTargetDependency */,
+				44ED9C50A6796B74D3D2DCF1CD206CAA /* PBXTargetDependency */,
+				F8441A9645CEA28006D4BEA2D3CDC33F /* PBXTargetDependency */,
+				77E175BB73CF0955EC9CAD69D0BC572D /* PBXTargetDependency */,
+			);
+			name = "Pods-IOSMoEngage-InternsNotificationContent";
+			productName = Pods_IOSMoEngage_InternsNotificationContent;
+			productReference = 1D29DB64C8E828719FE50FA7AE7F10C4 /* Pods-IOSMoEngage-InternsNotificationContent */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -858,7 +858,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E5D1851C14C6800148D678B330AE6E81 /* Products */;
+			productRefGroup = FED73B6B8810CC0DEB209B6E24FB934C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -868,9 +868,9 @@
 				A6277E1839D2B08B42428C1ECD9DEB3E /* MoEngageInbox */,
 				56616681F7A1283BA5AD7D56FFE48571 /* MoEngageRichNotification */,
 				47EF10187ECA073E08C0E648703D2567 /* Pods-IOSMoEngage */,
+				A9F3F1B2EFF6EC38AE2596AC04803A43 /* Pods-IOSMoEngage-InternsNotificationContent */,
 				3D67E5806CE3C12248B26107439D53F8 /* Pods-IOSMoEngage-IOSMoEngageUITests */,
 				0BB125092F42A0B73545A9E55A5566AA /* Pods-IOSMoEngage-NotificationServices */,
-				3803E376253A3AEB344046B1DEB54452 /* Pods-IOSMoEngage-PushTemplateExtension */,
 				A840714E5C1A96ED3B237147FCBBB1EE /* Pods-IOSMoEngageTests */,
 			);
 		};
@@ -891,7 +891,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D44AA2D380B7B2E6D23E1EAD62CF1EF /* Resources */ = {
+		8A5549A05C362ADC8C0114AA18261921 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1003,19 +1003,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B34FC1EC953DD716A75F8AEE620A6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AB8A21C4C07C596BD9BB3F4D7050ED /* Pods-IOSMoEngage-InternsNotificationContent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F83D537975D808DFAE9E34F8470E8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA511DC79E7D35CFD97781D358D96835 /* Pods-IOSMoEngage-NotificationServices-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BC92065941611995C018C00497B00A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11E1C6EBA54F9189E6C8D19BF5576EBF /* Pods-IOSMoEngage-PushTemplateExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,17 +1070,17 @@
 			target = 12124A02D6E3C6F6C43FA5415F7D861C /* MoEngageCards */;
 			targetProxy = 9B43C2A0549E3D3F24E3B143493616D8 /* PBXContainerItemProxy */;
 		};
-		2A22019F1DDD385AC602A73F13D910C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MoEngageCards;
-			target = 12124A02D6E3C6F6C43FA5415F7D861C /* MoEngageCards */;
-			targetProxy = 8105CA2062EE7D0E2C7E0B5598C55C23 /* PBXContainerItemProxy */;
-		};
 		306E5E31D70527209433B555845470B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MoEngageInApp;
 			target = 2D600AAD7FD09C0FB418D95D26038256 /* MoEngageInApp */;
 			targetProxy = 9D916EEEA946C701BE69DD621CF17E47 /* PBXContainerItemProxy */;
+		};
+		3C232B1E5FD3110BBEF9F45CD8DC4A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoEngageCards;
+			target = 12124A02D6E3C6F6C43FA5415F7D861C /* MoEngageCards */;
+			targetProxy = E00503BA8381964B96F875E777D5E6B8 /* PBXContainerItemProxy */;
 		};
 		3E6BF2B26A938311BADE9CFEBFBF8AA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1094,11 +1094,11 @@
 			target = A6277E1839D2B08B42428C1ECD9DEB3E /* MoEngageInbox */;
 			targetProxy = 3BF2148EC6C8BD4E1A80454B0B6D9728 /* PBXContainerItemProxy */;
 		};
-		57747894D49E00B9E76FFF9667B09E00 /* PBXTargetDependency */ = {
+		44ED9C50A6796B74D3D2DCF1CD206CAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MoEngageInbox;
-			target = A6277E1839D2B08B42428C1ECD9DEB3E /* MoEngageInbox */;
-			targetProxy = 425995881D9D01ADEA0E9F8B5E71B364 /* PBXContainerItemProxy */;
+			name = MoEngageInApp;
+			target = 2D600AAD7FD09C0FB418D95D26038256 /* MoEngageInApp */;
+			targetProxy = 007E070C2EDCDCB400C3760463D45287 /* PBXContainerItemProxy */;
 		};
 		62387E3AF1920D4365A2ED9711F09481 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1106,17 +1106,17 @@
 			target = DC29B4915ADE6A84DB1A8D013EA0D366 /* MoEngage-iOS-SDK */;
 			targetProxy = A64D6C5C65F0E5C5D829EBBB8DB1CE39 /* PBXContainerItemProxy */;
 		};
+		77E175BB73CF0955EC9CAD69D0BC572D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoEngageRichNotification;
+			target = 56616681F7A1283BA5AD7D56FFE48571 /* MoEngageRichNotification */;
+			targetProxy = E558389F9D6112C44DAD3F85C57BFF70 /* PBXContainerItemProxy */;
+		};
 		81B430CCCC76C4DD82113B8573336995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MoEngageRichNotification;
 			target = 56616681F7A1283BA5AD7D56FFE48571 /* MoEngageRichNotification */;
 			targetProxy = 1AE46C3D7CBBA28001A753AEE5C23219 /* PBXContainerItemProxy */;
-		};
-		83608D5E918763A2A5F3B50F0BCE24D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MoEngage-iOS-SDK";
-			target = DC29B4915ADE6A84DB1A8D013EA0D366 /* MoEngage-iOS-SDK */;
-			targetProxy = 39DAFA5E9B764AB9E5F809AD90353408 /* PBXContainerItemProxy */;
 		};
 		8368939AC04F10C5A07BDC71663C8ADB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1136,11 +1136,11 @@
 			target = 56616681F7A1283BA5AD7D56FFE48571 /* MoEngageRichNotification */;
 			targetProxy = 3BF85BD9DAF0E1C0EB5F131248F43A49 /* PBXContainerItemProxy */;
 		};
-		BDDD69B879EC2014D84B1CF928B505F1 /* PBXTargetDependency */ = {
+		9AD09231F0AD1E25ED5F595B93CFEDDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MoEngageInApp;
-			target = 2D600AAD7FD09C0FB418D95D26038256 /* MoEngageInApp */;
-			targetProxy = F801B5B88AF27F4BF9E58EEF01307AAC /* PBXContainerItemProxy */;
+			name = "MoEngage-iOS-SDK";
+			target = DC29B4915ADE6A84DB1A8D013EA0D366 /* MoEngage-iOS-SDK */;
+			targetProxy = 723EC8A5B000D57FD8D2217C09022CF0 /* PBXContainerItemProxy */;
 		};
 		C3DF39D217EA6D8028EAABFDEC61DBA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1166,12 +1166,6 @@
 			target = DC29B4915ADE6A84DB1A8D013EA0D366 /* MoEngage-iOS-SDK */;
 			targetProxy = F7AF7BAB229E910B2259184229AB959B /* PBXContainerItemProxy */;
 		};
-		D543B1667722FDC0D2B470685DA3A7BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MoEngageRichNotification;
-			target = 56616681F7A1283BA5AD7D56FFE48571 /* MoEngageRichNotification */;
-			targetProxy = EC8597F3AEA2D883F414F07B5C4BB555 /* PBXContainerItemProxy */;
-		};
 		E418407801F7F13FA07310542E8BEEF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MoEngageInbox;
@@ -1190,6 +1184,12 @@
 			target = 12124A02D6E3C6F6C43FA5415F7D861C /* MoEngageCards */;
 			targetProxy = D265EE36493F9F68AB99BB62253F151A /* PBXContainerItemProxy */;
 		};
+		F8441A9645CEA28006D4BEA2D3CDC33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoEngageInbox;
+			target = A6277E1839D2B08B42428C1ECD9DEB3E /* MoEngageInbox */;
+			targetProxy = 659626A423BA04A20B3D2360705EB09B /* PBXContainerItemProxy */;
+		};
 		FAC13BE7BD5436895B3C4D713C5CDF9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MoEngage-iOS-SDK";
@@ -1205,6 +1205,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0AAFC6271DAFB113C889FB50CF4C8357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3627BDC80E9301DD2568E1CFE069C1 /* Pods-IOSMoEngage-InternsNotificationContent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-InternsNotificationContent/Pods-IOSMoEngage-InternsNotificationContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-InternsNotificationContent/Pods-IOSMoEngage-InternsNotificationContent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0BA9B285C4AE51B1DB5026E2E16055EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BF10EA8B38DE05E97D2DF27F9AB99BC /* MoEngage-iOS-SDK.debug.xcconfig */;
@@ -1222,46 +1260,75 @@
 			};
 			name = Debug;
 		};
-		13D8E395524E1E7B77D63F6230FFF668 /* Debug */ = {
+		143462663EFF28001EBF1AB5F9D0FAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 453AA1DC40AA8760B659E1832D7DD01A /* Pods-IOSMoEngageTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		152F7DC3410535276E7C124A17C2B131 /* Debug */ = {
+		143C92142E7C1A9964446B083455B89F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 434983008036A32FD4A902EAF67DC1E6 /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */;
+			baseConfigurationReference = 6F1B39B9F4C223E107377A5C57E9BB9B /* Pods-IOSMoEngage.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1273,16 +1340,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1383,445 +1450,7 @@
 			};
 			name = Release;
 		};
-		76B255EDC1E555750473E13FC9ED2090 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1CF62AB95E68AF61CB2DF7D3E925591 /* MoEngageInbox.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A911BA5DD1871B356170513C326BDD8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBD8F51E5504EFBE4839A65ECB298BA /* Pods-IOSMoEngageTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		7CAC6052ADA1CB7E5EEE0C67AD4918DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8164150AE01355AA5EB11EF955AB5E8D /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7CAD04A74A2EBDD67FD7268E310817FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48DBF8FFBAE5762E75D1CE519A256DA0 /* MoEngage-iOS-SDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7D715339B8DE2CAD6BF79C4E8A520016 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA562C1D3E22D16297D33C24F44DDD4 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		91F42C9F78656E97E2549DE396B64CE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 428BA5F9F4A13C35F916600691BE4F62 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC67C6C3898C927FAB5095535DC652D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A95948B6CB9BC7EE7390B06A51FC12 /* Pods-IOSMoEngage.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ADF66FB85CF6B68AF783CC6CB327E9C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D45C9B15E5CD5474EBCFBEA6E636858 /* Pods-IOSMoEngage.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B709A4DA52DB8EF226087765A0D41EF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71FFC01F57F5B66992953D4AFAF7EE18 /* MoEngageInApp.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C88D4FD1CA16BF12A6A28915966153A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FD077622D2A80122FA587A58F3E7ADA /* MoEngageInbox.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E6231B9069209606D69A3FA732A58DD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C756602E67B90B7758E92CCD24245F /* Pods-IOSMoEngage-PushTemplateExtension.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-PushTemplateExtension/Pods-IOSMoEngage-PushTemplateExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-PushTemplateExtension/Pods-IOSMoEngage-PushTemplateExtension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F67D03C92021AE55F96AE78041927B09 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 129CC0645A4392E6E07B766B75B8AA4C /* Pods-IOSMoEngage-PushTemplateExtension.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-PushTemplateExtension/Pods-IOSMoEngage-PushTemplateExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-PushTemplateExtension/Pods-IOSMoEngage-PushTemplateExtension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+		76112A9CBAA9EFB3B12C84DC298B839B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1871,7 +1500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1882,6 +1511,377 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		76B255EDC1E555750473E13FC9ED2090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CF62AB95E68AF61CB2DF7D3E925591 /* MoEngageInbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CAD04A74A2EBDD67FD7268E310817FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DBF8FFBAE5762E75D1CE519A256DA0 /* MoEngage-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F59BC0339990BCA746E0D7A2FAB700E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965FF2F8F267CABCBCCD41F67EACB563 /* Pods-IOSMoEngage-InternsNotificationContent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-InternsNotificationContent/Pods-IOSMoEngage-InternsNotificationContent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-InternsNotificationContent/Pods-IOSMoEngage-InternsNotificationContent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B709A4DA52DB8EF226087765A0D41EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FFC01F57F5B66992953D4AFAF7EE18 /* MoEngageInApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC4B519DB925D0443255700B3BEA7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360E8DBBDF2D968E0E99F96144E91785 /* Pods-IOSMoEngage-NotificationServices.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3BB252DB624125C9276D7345922297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F3764DBEFE03E4478AB2805D0ADA17 /* Pods-IOSMoEngageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C88D4FD1CA16BF12A6A28915966153A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD077622D2A80122FA587A58F3E7ADA /* MoEngageInbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2067E5FB106EBFE2F7B0A3C83FA3731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7685C3BF25D5DE38C419B46890BA1149 /* Pods-IOSMoEngageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngageTests/Pods-IOSMoEngageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F04C44CC2EFE6766BCCB6DE2542A9B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8BB6A9972AA26906F1F1592751847B /* Pods-IOSMoEngage-IOSMoEngageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4D5E46342AB18EA853296F2E94C4A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC10A77ADDD82A72B4D7F427B7380FDC /* Pods-IOSMoEngage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage/Pods-IOSMoEngage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7BDD3FEE7B3DC6EDB47587C53B8E519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE64CF947DA708C1D9EFC260C0D570A7 /* Pods-IOSMoEngage-IOSMoEngageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-IOSMoEngageUITests/Pods-IOSMoEngage-IOSMoEngageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3C4C7D3D31316028D93A84087F3DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024933DDE82FF4A483CB587C2863FC23 /* Pods-IOSMoEngage-NotificationServices.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IOSMoEngage-NotificationServices/Pods-IOSMoEngage-NotificationServices.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1895,20 +1895,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C15905728FB853DF9D56B57E87AFB12 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-PushTemplateExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F67D03C92021AE55F96AE78041927B09 /* Debug */,
-				E6231B9069209606D69A3FA732A58DD7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1DC7E8232A96193AFE48811F18F1DF93 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-IOSMoEngageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				152F7DC3410535276E7C124A17C2B131 /* Debug */,
-				91F42C9F78656E97E2549DE396B64CE2 /* Release */,
+				F04C44CC2EFE6766BCCB6DE2542A9B28 /* Debug */,
+				F7BDD3FEE7B3DC6EDB47587C53B8E519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1916,8 +1907,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
-				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+				143462663EFF28001EBF1AB5F9D0FAFD /* Debug */,
+				76112A9CBAA9EFB3B12C84DC298B839B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1934,8 +1925,8 @@
 		4ED1DB45E0DF6DDC3A9AAD4013CBC483 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADF66FB85CF6B68AF783CC6CB327E9C5 /* Debug */,
-				AC67C6C3898C927FAB5095535DC652D7 /* Release */,
+				143C92142E7C1A9964446B083455B89F /* Debug */,
+				F4D5E46342AB18EA853296F2E94C4A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1952,8 +1943,8 @@
 		871330EFB89FE4BB565B83CECE191F9F /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13D8E395524E1E7B77D63F6230FFF668 /* Debug */,
-				7A911BA5DD1871B356170513C326BDD8 /* Release */,
+				E2067E5FB106EBFE2F7B0A3C83FA3731 /* Debug */,
+				C3BB252DB624125C9276D7345922297D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1967,11 +1958,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BF93782CB7DCC6D563AB100B292E6BF2 /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-InternsNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F59BC0339990BCA746E0D7A2FAB700E /* Debug */,
+				0AAFC6271DAFB113C889FB50CF4C8357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C9A8F256EB0E7B2F7F79AF77474F8B3A /* Build configuration list for PBXNativeTarget "Pods-IOSMoEngage-NotificationServices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CAC6052ADA1CB7E5EEE0C67AD4918DA /* Debug */,
-				7D715339B8DE2CAD6BF79C4E8A520016 /* Release */,
+				FC3C4C7D3D31316028D93A84087F3DBB /* Debug */,
+				BCC4B519DB925D0443255700B3BEA7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
