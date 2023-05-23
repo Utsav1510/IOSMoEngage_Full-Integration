@@ -9,19 +9,21 @@ import UIKit
 import MoEngageCards
 import MoEngageInbox
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController , MoEngageInboxViewControllerDelegate{
     
         
+    var inboxController: MoEngageInboxViewController?;
     
     override func viewDidLoad() {
+        
         
         super.viewDidLoad()
         
         
         
-        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: MoEngageInboxUIConfiguration, withInboxWithControllerDelegate:self , forAppID: "YOUR APP ID") { inboxController in
-             self.inboxController = inboxController
-        }
+//        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "K5RQAWVLPPTTIA29F1XKRAGW") { inboxController in
+//            print("messages")
+//        }
         // Do any additional setup after loading the view.
         
         
@@ -30,6 +32,23 @@ class FirstViewController: UIViewController {
         
         
     }
+    
+    
+    @IBAction func inbox(_ sender: Any) {
+        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "2877NHMD0TOHATHC6NNHDERW") { inboxController in
+            self.inboxController = inboxController;
+            print("hello")
+        }
+        
+        MoEngageSDKInbox.sharedInstance.presentInboxViewController(withUIConfiguration: nil)
+    }
+    
+    
+    
+    @IBAction func cards(_ sender: Any) {
+        MoEngageSDKCards.sharedInstance.presentCardsViewController()
+    }
+    
     @IBAction func didLogin(_ sender: Any) {
         let secondController = self.storyboard!.instantiateViewController(withIdentifier: "second_controller") as! SecondViewController
         //        let storyboard=UIStoryboard(name:"Main",bundle:nil)
@@ -42,51 +61,10 @@ class FirstViewController: UIViewController {
     
     
     
-    @IBAction func cards(_ sender: Any) {
-        
-        
-        // DISPLAYYYYYY
-        MoEngageSDKCards.sharedInstance.pushCardsViewController(toNavigationController: self.navigationController!)
-
-        // To Present MoEngageCardsListViewController
-        MoEngageSDKCards.sharedInstance.presentCardsViewController()
-        
-//        --------------------------------
-        
-        //  CUSTOMIZEEEE
-        
-        let uiConfig = MoEngageCardsUIConfiguration()
-        // Do customization using uiConfig
-        // provide the argument while obtaining the MoEngageCardsListViewController instance
-
-        // Present Cards View Controller
-        MoEngageSDKCards.sharedInstance.presentCardsViewController(withUIConfiguration: uiConfig)
-
-//        // Push Cards View Controller
-//        MoEngageSDKCards.sharedInstance.pushCardsViewController(toNavigationController: self.navigationController!, withUIConfiguration: uiConfig)
-//
-//
-        // Obtaining the ViewController
-        
-        
-//        ------------------------------------------------------------------------
-        
-        
-        
-        
-    }
     
-    @IBAction func show_inbox(){
-        
-        
-        // Present
-        
-        
-        
-        
-        
-        
-    }
+
+    
+    
         
     
 }

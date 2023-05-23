@@ -9,21 +9,28 @@ import UIKit
 
 import MoEngageSDK
 import MoEngageInApps
+import UserNotifications
 @available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MoEngageMessagingDelegate {
 
 // firstName.text ?? ""
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //        MoEngageSDKAnalytics.sharedInstance.resetUser()
-        let sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
+        let sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
         MoEngageSDKMessaging.sharedInstance.disableBadgeReset(true)
         
         MoEngageSDKMessaging.sharedInstance.setMessagingDelegate(self)
         
-        MoEngageSDKMessaging.sharedInstance.registerForRemoteNotification(withCategories: nil, andUserNotificationCenterDelegate: self)
-        sdkConfig.appGroupID = "group.interns.moengage"
+        
+        
+
+        
+        
+        sdkConfig.appGroupID = "group.moengage.alphadevs.moengage"
         
         //Add your MoEngage App ID
              
@@ -34,37 +41,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
              #else
                  MoEngage.sharedInstance.initializeDefaultLiveInstance(sdkConfig, sdkState: .enabled)
              #endif
+        
+        MoEngageSDKMessaging.sharedInstance.registerForRemoteNotification(withCategories: nil, andUserNotificationCenterDelegate: self)
+
             MoEngageSDKAnalytics.sharedInstance.appStatus(.install)
-        
-        
         
         return true
     }
-    func notificationClicked(withScreenName screenName: String?, andKVPairs kvPairs: [AnyHashable : Any]?) {
-            if let screenName = screenName {
-                print("Navigate to Screen:\(screenName)")
-            }
-            
-            if let actionKVPairs = kvPairs {
-                print("Selected Action KVPair:\(actionKVPairs)")
-            }
-    }
-    func notificationClicked(withScreenName screenName: String?, kvPairs: [AnyHashable : Any]?, andPushPayload userInfo: [AnyHashable : Any]) {
-            
-            print("Push Payload: \(userInfo)")
-            
-            if let screenName = screenName {
-                print("Navigate to Screen:\(screenName)")
-            }
-            
-            if let actionKVPairs = kvPairs {
-                print("Selected Action KVPair:\(actionKVPairs)")
-            }
-    }
+//    func notificationClicked(withScreenName screenName: String?, andKVPairs kvPairs: [AnyHashable : Any]?) {
+//            if let screenName = screenName {
+//                print("Navigate to Screen:\(screenName)")
+//            }
+//
+//            if let actionKVPairs = kvPairs {
+//                print("Selected Action KVPair:\(actionKVPairs)")
+//            }
+//    }
+//    func notificationClicked(withScreenName screenName: String?, kvPairs: [AnyHashable : Any]?, andPushPayload userInfo: [AnyHashable : Any]) {
+//
+//            print("Push Payload: \(userInfo)")
+//
+//            if let screenName = screenName {
+//                print("Navigate to Screen:\(screenName)")
+//            }
+//
+//            if let actionKVPairs = kvPairs {
+//                print("Selected Action KVPair:\(actionKVPairs)")
+//            }
+//    }
 
     
     // MARK: UISceneSession Lifecycle
 
+
+//    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//      //Call only if MoEngageAppDelegateProxyEnabled is NO
+//      MoEngageSDKMessaging.sharedInstance.setPushToken(deviceToken)
+//    }
+//
+//
+//    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+//      //Call only if MoEngageAppDelegateProxyEnabled is NO
+//      MoEngageSDKMessaging.sharedInstance.didFailToRegisterForPush()
+//
+//    }
+    
     @available(iOS 13.0, *)
     
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

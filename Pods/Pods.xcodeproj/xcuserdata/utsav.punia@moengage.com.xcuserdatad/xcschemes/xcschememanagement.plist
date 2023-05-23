@@ -44,16 +44,16 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
-		<key>Pods-IOSMoEngage-NotificationServices.xcscheme</key>
+		<key>Pods-IOSMoEngage-InternsNotificationContent.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
-		<key>Pods-IOSMoEngage-PushTemplateExtension.xcscheme</key>
+		<key>Pods-IOSMoEngage-NotificationServices.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

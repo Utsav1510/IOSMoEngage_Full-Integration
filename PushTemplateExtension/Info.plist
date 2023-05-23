@@ -6,14 +6,14 @@
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
-			<key>UNNotificationExtensionUserInteractionEnabled</key>
-			<true/>
-			<key>UNNotificationExtensionDefaultContentHidden</key>
-			<true/>
 			<key>UNNotificationExtensionCategory</key>
 			<string>MOE_PUSH_TEMPLATE</string>
+			<key>UNNotificationExtensionDefaultContentHidden</key>
+			<true/>
 			<key>UNNotificationExtensionInitialContentSizeRatio</key>
 			<real>1.2</real>
+			<key>UNNotificationExtensionUserInteractionEnabled</key>
+			<true/>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
 		<string>MainInterface</string>
