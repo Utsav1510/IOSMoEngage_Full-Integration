@@ -16,13 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
 // firstName.text ?? ""
     
-    
+//    K5RQAWVLPPTTIA29F1XKRAGW
+//    2877NHMD0TOHATHC6NNHDERW
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //        MoEngageSDKAnalytics.sharedInstance.resetUser()
         
 //        let sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
-        let sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
+        let sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
 
         
         MoEngageSDKMessaging.sharedInstance.disableBadgeReset(true)
@@ -49,6 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         MoEngageSDKMessaging.sharedInstance.registerForRemoteNotification(withCategories: nil, andUserNotificationCenterDelegate: self)
 
             MoEngageSDKAnalytics.sharedInstance.appStatus(.install)
+        
+        
         
         return true
     }
