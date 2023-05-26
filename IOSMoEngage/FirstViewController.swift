@@ -8,7 +8,8 @@
 import UIKit
 import MoEngageCards
 import MoEngageInbox
-
+import MoEngageInApps
+import MoEngageAnalytics
 class FirstViewController: UIViewController , MoEngageInboxViewControllerDelegate{
     
         
@@ -18,7 +19,7 @@ class FirstViewController: UIViewController , MoEngageInboxViewControllerDelegat
         
         
         super.viewDidLoad()
-        
+        MoEngageSDKInApp.sharedInstance.showInApp()
         
         
 //        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "K5RQAWVLPPTTIA29F1XKRAGW") { inboxController in
@@ -33,9 +34,13 @@ class FirstViewController: UIViewController , MoEngageInboxViewControllerDelegat
         
     }
 //    K5RQAWVLPPTTIA29F1XKRAGW
+//    2877NHMD0TOHATHC6NNHDERW
+    @IBAction func Signout(_ sender: Any) {
+        MoEngageSDKAnalytics.sharedInstance.resetUser()
+    }
     
     @IBAction func inbox(_ sender: Any) {
-        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "2877NHMD0TOHATHC6NNHDERW") { inboxController in
+        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "K5RQAWVLPPTTIA29F1XKRAGW") { inboxController in
             self.inboxController = inboxController;
             print("hello")
         }
