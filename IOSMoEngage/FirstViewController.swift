@@ -40,7 +40,7 @@ class FirstViewController: UIViewController , MoEngageInboxViewControllerDelegat
     }
     
     @IBAction func inbox(_ sender: Any) {
-        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "K5RQAWVLPPTTIA29F1XKRAGW") { inboxController in
+        MoEngageSDKInbox.sharedInstance.getInboxViewController(withUIConfiguration: nil, withInboxWithControllerDelegate: nil, forAppID: "2877NHMD0TOHATHC6NNHDERW") { inboxController in
             self.inboxController = inboxController;
             print("hello")
         }

@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 //        MoEngageSDKAnalytics.sharedInstance.resetUser()
         
 //        let sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
-        let sdkConfig = MoEngageSDKConfig(withAppID: "K5RQAWVLPPTTIA29F1XKRAGW")
+        let sdkConfig = MoEngageSDKConfig(withAppID: "2877NHMD0TOHATHC6NNHDERW")
 
         
         MoEngageSDKMessaging.sharedInstance.disableBadgeReset(true)
